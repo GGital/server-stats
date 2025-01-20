@@ -27,7 +27,7 @@ To use this tool, ensure the following are installed on your Linux server:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/server-stats.git
+   git clone https://github.com/GGital/server-stats.git
    cd server-stats
    ```
 
@@ -41,8 +41,12 @@ To use this tool, ensure the following are installed on your Linux server:
    chmod +x server-stats
    sudo mv server-stats /usr/local/bin/
    ```
+   OR
+   ```bash
+   go install
+   ```
 
-4. Verify installation:
+5. Verify installation:
    ```bash
    server-stats --help
    ```
